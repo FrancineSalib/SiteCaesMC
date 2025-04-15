@@ -53,8 +53,9 @@
 
   .hero {
     text-align: center;
-    background: url('dog-bg.jpg') center center/cover no-repeat;
-    padding: 100px 20px;
+    background: url(img/logo4.jpg) center center / cover no-repeat;
+    padding: 410px 32px;
+    padding-top: 100px;
   }
 
   .hero h1 {
@@ -76,18 +77,21 @@
     color: #111;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    padding: 40px 20px;
+    /* justify-content: center; */
+    padding: 14px 20px;
+    width: 80%;
+    position: absolute;
+    left: 125px;
+    top: 480px;
   }
 
   .section-group div {
     flex: 1 1 250px;
-    margin: 15px;
     max-width: 300px;
   }
 
   .section-group h3 {
-    color: #c62828;
+    color: #000;
     margin-bottom: 10px;
   }
 
@@ -111,6 +115,12 @@
 
   .social-icons {
     margin-bottom: 10px;
+  }
+  
+  .logo-caes {
+    background: url(img/logo-topo.png) center center / cover no-repeat;
+	width: 188px;
+    height: 187px;
   }
 
   .social-icons a {
